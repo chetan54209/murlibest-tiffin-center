@@ -1,13 +1,67 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
   <meta charset="utf-8">
-  <title>MurlibestTiffinCenter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Murli Best Tiffin Center</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/owl.theme.css" rel="stylesheet" type="text/css">
+
+  <!---Fontawesome --->
+  <link href="./assets/css/all.css" rel="stylesheet" type="text/css">
+
+  <!-- Our Custom CSS -->
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Our Responsive CSS -->
+  <link href="./assets/css/responsive-style.css" rel="stylesheet" type="text/css">
+
+
 </head>
+
 <body>
   <app-root></app-root>
+
+    <!-- jQuery js-->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl-carousel/owl.carousel.js"></script>
+  
+  
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+  
+    <script type="text/javascript">
+      $(document).ready(function () {
+  
+        $('.owl-carousel').owlCarousel({
+  
+          navigation: true, // Show next and prev buttons
+          slideSpeed: 300,
+          paginationSpeed: 400,
+          autoplay: true,
+          autoplayTimeout: 1000,
+          autoplayHoverPause: true,
+          singleItem: true,
+          navigationText: ["<img src='./assets/images/left-arrow.png'>", "<img src='./assets/images/right-arrow.png'>"]
+  
+          // "singleItem:true" is a shortcut for:
+          //items : 1, 
+          // itemsDesktop : false,
+          // itemsDesktopSmall : false,
+          // itemsTablet: false,
+          // itemsMobile : false
+  
+        });
+  
+      });
+    </script>
 </body>
+
+
 </html>

@@ -1,0 +1,27 @@
+/****************************
+TURN BOOTSTRAP CAROUSEL INTO FULL SCREEN SLIDER
+*****************************/
+html,
+body {
+  height: 100%;
+}
+.tcb-bs-fullscreen {
+  height: 100%;
+}
+.tcb-bs-fullscreen .carousel,
+.tcb-bs-fullscreen .item,
+.tcb-bs-fullscreen .active {
+  height: 100%;
+}
+.tcb-bs-fullscreen .carousel-inner {
+  height: 100%;
+}
+/****************************
+USE BACKGROUND IMAGES IN CAROUSEL SLIDER
+*****************************/
+.carousel-bg .carousel-inner .item {
+  background-color: darkslategrey;
+  background-size: cover;
+  background-position: center;
+  min-height: 360px;
+}
