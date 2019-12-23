@@ -446,7 +446,12 @@ color: #999;
 	.section-title {
 		margin-bottom: 30px;
 	}
-	
+
+	#team, #contact, #about .about-text, #features, #restaurant-menu {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
 	.navbar .navbar-collapse {
 		background-color: #8ac440;
 	}
