@@ -439,6 +439,14 @@ color: #999;
 }
 
 @media (max-width: 767px) {
+	h2 {
+		font-size: 26px;
+	}
+
+	.section-title {
+		margin-bottom: 30px;
+	}
+	
 	.navbar .navbar-collapse {
 		background-color: #8ac440;
 	}
